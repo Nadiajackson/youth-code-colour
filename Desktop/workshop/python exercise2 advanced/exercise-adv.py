@@ -32,9 +32,9 @@ c = 7
 c = c % 4
 
 # TODO: Calculate the square root of (a^2 + b^2 + c^2)
-answer = 
+square = math.sqrt(2)
 # TODO: Print the final result rounded to 2 decimal places
-print(round(answer, 2))
+print(round(square, 2))
 
 # -------------------------------------------
 # Question 2: Complex Conditional Evaluation
@@ -58,14 +58,15 @@ z = int(input("input an integer: "))
 #   is_even = True if x is even
 #   is_positive = True if y > 0
 #   is_in_range = True if z between 10 and 50
-if "x" == 0
+if x == 0:
  print(True)
-if "y" > 0
+if y > 0:
  print(True)
-if "z" >= 10 or "z" <= 50
+if z >= 10 or z <= 50:
  print(True)
 # TODO: Create final_condition = is_even and is_positive and is_in_range
-final_condition = if "x" == 0 and if "y" > 0 and if "z" >= 10 or "z" <= 50: print(True)
+final_condition = x == 0 and y > 0 and z >= 10 or z <= 50
+print(True)
  
 # TODO: Print final_condition
 print(final_condition)
@@ -86,22 +87,22 @@ print(final_condition)
 # TODO: Input score from user
 score = int(input("users score: "))
 # TODO: Apply adjustments
-adjustments = "score" + 5 - 10
+adjustments = score + 5 - 10
 # TODO: Clamp score between 0 and 100
-c-score = "score" < 100 or "score" > 0
+c-score == score < 100 or score > 0
 
 # TODO: Use if-elif-else to determine grade and print it
-if "c-score" >= 90 or"c-score" <= 100
+if c-score >= 90 or c-score <= 100:
  print("A")
-elif "c-score" >= 80 or "c-score" < 90
+elif c-score >= 80 or c-score < 90:
  print("B")
-elif "c-score" >= 70 or "c-score" < 80
+elif c-score >= 70 or c-score < 80:
  print("C")
-elif "c-score" >= 60 or "c-score" < 70
+elif c-score >= 60 or c-score < 70:
  print("D")
-elif "c-score" >= 50 or "c-score" < 60
+elif c-score >= 50 or c-score < 60:
  print("E")
-else
+else:
  print("F")
 # -------------------------------------------
 # Question 4: Advanced Calculator
@@ -118,9 +119,9 @@ else
 num1 = int(input("input integer: "))
 num2 = int(input("input integer: "))
 # TODO: Input operation
-operation = int(nput("input operation: "))
+operation = input("input operation: ")
 # TODO: Match operation using if-elif
 # TODO: Handle division/modulus by zero with try-except
-if num1 == 0 or if num2 == 0 
+answer = num1 == 0 or num2 == 0 
 # TODO: Print result
-
+print(answer)
